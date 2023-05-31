@@ -23,8 +23,4 @@ export const Router = createBrowserRouter([
 			</PublicRoute>
 		),
 	},
-	/*   {
-    path: "*",
-    element: <Navigate to="/" />,
-  }, */
 ])
