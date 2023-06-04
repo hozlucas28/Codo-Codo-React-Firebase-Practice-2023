@@ -1,6 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-import ErrorView from '../pages/Error/views/ErrorView.jsx'
 import HomeView from '../pages/home/views/HomeView'
 import LoginView from '../pages/login/views/LoginView'
 
@@ -23,9 +22,5 @@ export const Router = createBrowserRouter([
 				<LoginView />
 			</PublicRoute>
 		),
-	},
-	{
-		path: '/error',
-		element: <ErrorView />,
 	},
 ])
