@@ -6,8 +6,8 @@ export default {
 			colors: {
 				white: '#ffffff',
 				black: '#131518',
-				grey: '#606060',
-				'light-grey': '#adadad',
+				gray: '#606060',
+				'light-gray': '#adadad',
 				'white-background': '#f5f2eb',
 				'light-yellow-button': '#fcc888',
 			},
