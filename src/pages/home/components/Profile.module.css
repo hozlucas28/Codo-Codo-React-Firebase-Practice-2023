@@ -1,5 +1,6 @@
 .container {
-	@apply flex
+	@apply z-10
+        flex
         w-80
         flex-col
         items-center

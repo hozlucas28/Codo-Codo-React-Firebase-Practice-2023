@@ -1,6 +1,26 @@
 .view {
-	@apply grid
+	@apply relative
+        grid
         h-screen
         place-content-center
+        overflow-hidden
         bg-white-background;
+}
+
+.illustration01 {
+	@apply absolute
+        left-10
+        top-10
+        w-64
+        -rotate-45
+        fill-light-gray/30;
+}
+
+.illustration02 {
+	@apply absolute
+        bottom-10
+        right-10
+        w-64
+        -rotate-45
+        fill-light-gray/30;
 }
