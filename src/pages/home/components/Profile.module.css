@@ -1,0 +1,69 @@
+.container {
+	@apply flex
+        w-80
+        flex-col
+        items-center
+        justify-items-stretch
+        gap-6
+        rounded-xl
+        bg-white
+        p-8
+        drop-shadow-2xl;
+}
+
+.container > img {
+	@apply h-32
+        w-32
+        rounded-full
+        ring-4
+        ring-light-gray
+        transition-transform
+        duration-200
+        ease-out;
+}
+
+.container > svg {
+	@apply h-32
+        w-32
+        rounded-full
+        fill-light-gray
+        ring-4
+        ring-light-gray
+        transition-transform
+        duration-200
+        ease-out;
+}
+
+.container > header {
+	@apply text-center;
+}
+
+.container > header > h1 {
+	@apply text-2xl
+        font-bold
+        capitalize;
+}
+
+.container > header > h2 {
+	@apply text-lg
+        font-medium
+        text-light-gray;
+}
+
+.container > footer {
+	@apply w-full;
+}
+
+.container > footer > button {
+	@apply w-full
+        rounded-lg
+        bg-light-yellow-button
+        p-2
+        font-semibold
+        text-black
+        transition-colors
+        duration-200
+        ease-out
+        hover:bg-black
+        hover:text-light-yellow-button;
+}
