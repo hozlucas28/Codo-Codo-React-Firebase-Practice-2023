@@ -1,18 +1,10 @@
-import React from 'react'
-
-import { useAuth } from '../../../hooks/useAuth'
-
 import LoginForm from '../components/LoginForm'
 
+import { view } from './LoginView.module.css'
+
 const LoginView = () => {
-	const { login } = useAuth()
-
 	return (
-		<div>
-			<div>
-				<h1 className='text-4xl'>Iniciar Sesión</h1>
-			</div>
-
+		<div className={view}>
 			<LoginForm />
 		</div>
 	)
