@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-import HomeView from '../pages/home/views/homeView'
-import LoginView from '../pages/login/views/loginView'
+import HomeView from '../pages/home/views/HomeView'
+import LoginView from '../pages/login/views/LoginView'
 
 import ProtectedRoute from './ProtectedRoute'
 import PublicRoute from './PublicRoute'
