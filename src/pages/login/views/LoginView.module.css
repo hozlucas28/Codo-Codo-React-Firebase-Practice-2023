@@ -1,0 +1,6 @@
+.view {
+	@apply grid
+        h-screen
+        place-content-center
+        bg-white-background;
+}

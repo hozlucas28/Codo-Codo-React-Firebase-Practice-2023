@@ -1,0 +1,131 @@
+.form {
+	@apply flex
+        w-80
+        flex-col
+        items-center
+        justify-items-stretch
+        gap-4
+        rounded-xl
+        bg-white
+        p-8
+        drop-shadow-2xl;
+}
+
+.formHeader {
+	@apply flex
+        flex-col
+        gap-2
+        text-center
+        text-black;
+}
+
+.formHeaderTitle {
+	@apply text-2xl
+        font-bold
+        capitalize;
+}
+
+.formHeaderSubtitle {
+	@apply text-sm
+        font-medium;
+}
+
+.formEmail {
+	@apply w-full;
+}
+
+.formEmail > input {
+	@apply w-full
+        rounded-lg
+        border-2
+        border-light-gray
+        p-2
+        focus:outline-black;
+}
+
+.formEmail > input::placeholder {
+	@apply text-sm
+        text-light-gray;
+}
+
+.formPassword {
+	@apply w-full;
+}
+
+.formPassword > input {
+	@apply w-full
+        rounded-lg
+        border-2
+        border-light-gray
+        p-2
+        focus:outline-black;
+}
+
+.formPassword > input::placeholder {
+	@apply text-sm
+        text-light-gray;
+}
+
+.formButtons {
+	@apply mt-4
+        flex
+        w-full
+        flex-col
+        items-center
+        justify-center
+        gap-2;
+}
+
+.formSignIn {
+	@apply w-full
+        rounded-lg
+        bg-light-yellow-button
+        p-2
+        font-semibold
+        text-black
+        transition-colors
+        duration-200
+        ease-out
+        hover:bg-black
+        hover:text-light-yellow-button;
+}
+
+.formButtonsDivider {
+	@apply relative
+        before:pr-1
+        before:content-['---']
+        after:pl-1
+        after:content-['---'];
+}
+
+.formSignInWithGoogle {
+	@apply flex
+        w-full
+        items-center
+        justify-center
+        gap-2
+        rounded-lg
+        border
+        border-light-gray/40
+        p-2
+        drop-shadow-xl
+        transition-colors
+        duration-200
+        ease-out
+        hover:bg-black;
+}
+
+.formSignInWithGoogle span {
+	@apply font-semibold
+        text-black
+        transition-colors
+        duration-200
+        ease-out;
+}
+
+.formSignInWithGoogle svg {
+	@apply w-4
+        transition-colors
+        duration-200
+        ease-out;
+}
