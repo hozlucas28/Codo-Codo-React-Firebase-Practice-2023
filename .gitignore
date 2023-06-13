@@ -118,6 +118,7 @@ web_modules/
 
 # ---------------------------- Dotenv Environment ---------------------------- #
 
+.env
 .env.development.local
 .env.test.local
 .env.production.local
