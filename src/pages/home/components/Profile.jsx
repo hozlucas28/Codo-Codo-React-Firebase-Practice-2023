@@ -20,6 +20,7 @@ const Profile = () => {
 				<img
 					src={photoURL}
 					alt={`${TEXTS.profile.photo.alt} ${displayName}`}
+					referrerPolicy='no-referrer'
 				/>
 			) : (
 				<AnonymousTieUser alt={`${TEXTS.profile.photo.alt} ${TEXTS.profile.displayName.anonymous}`} />
