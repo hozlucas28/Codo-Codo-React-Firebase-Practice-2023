@@ -19,7 +19,7 @@
 
 <p align="center">
     <a href="https://codo-codo-react-firebase-practice-2023.vercel.app/" target="_blank">
-        <img src="https://github.com/hozlucas28/Codo-Codo-React-Project-01-2023/assets/88015479/68b460f8-d8b4-4dc6-9156-d29d76200fc7" width="800">
+        <img src="./.github/preview.png" width="800">
     </a>
 </p>
 
